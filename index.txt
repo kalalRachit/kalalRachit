@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navi{
+    background-color: burlywood;
+    justify-content: space-between;
+}
+.btn{
+    margin: 20px 0;
+    margin-right: 15px;
+}
+form{
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px 30px;
+    margin: 10px 20%;
+}
+label{
+    float: left;
+}
+input{
+    width: 80%;
+}
+
+select{
+    float: left;
+    margin-left: 25px;
+}
+
+textarea{
+    width: 25%;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
