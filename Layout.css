@@ -1,0 +1,18 @@
+.nav{
+    background-color: blue;
+    text-decoration: none;
+    size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+    padding: 25px 25px;
+    margin: 25px 25px;
+    width: 90%;
+}
