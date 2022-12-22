@@ -1,0 +1,35 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import './Layout.css'
+import Main from '../Images/Main.jpg'
+
+function Layout(){
+    return(
+        <div>
+        <div>
+        <nav>
+            <div className="nav">
+                <ul>
+                    <li>
+                        <Link to='/'></Link>
+                    </li>
+                    <li>
+                        <Link to='/home' style={{ textDecoration: 'none' , color:"black" }}>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='/about' style={{ textDecoration: 'none' , color:"black"}}>About</Link>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+        <div>
+            <img src={Main}/>
+        </div>
+        <div>
+            <h1>Wel-Come to The Forset</h1>
+        </div>
+        </div>
+    )
+}
+export default Layout
